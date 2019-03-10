@@ -1,0 +1,296 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{}{Vivek Kumar}{ \urlstyle{same}\url{} \\
+\href{mailto:kumar.vivek2696@gmail.com}{kumar.vivek2696@gmail.com} | +91-8511106612
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\descript{SARVAJANIK COLLEGE OF ENGINEERING AND TECHNOLOGY}
+\location{Computer Engineering | Surat, IN}
+\location{2014 - 2018 \\ CGPA: 8.87}
+\sectionsep
+
+
+\descript{J.H. AMBANI SARASWATI VIDYA MANDIR}
+\location{Higher Secondary 2014 | Surat, IN}
+\location{Percentage: 92.8}
+\sectionsep
+
+\descript{J.H. AMBANI SARASWATI VIDYA MANDIR}
+\location{Secondary 2014 | Surat, IN}
+\location{CGPA: 8.8}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github: \href{https://github.com/vivekkumar2696}{\custombold{vivekkumar2696}} \\
+LinkedIn:  \href{https://www.linkedin.com/in/kumarvivek2696}{\custombold{kumarvivek2696}} \\
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+Python \textbullet{} Scala \textbullet{} JAVA \textbullet{} C \textbullet{} C++ \textbullet{} JavaScript \textbullet{} Android \textbullet{} HTML \textbullet{} CSS \\
+\vspace{1mm}
+\location{Familiar:} 
+Groovy \textbullet{} PHP \textbullet{} C\#
+\sectionsep
+
+\subsection{frameworks and tools} 
+
+Spark \textbullet{} Hadoop \textbullet{} Scikit \textbullet{} Numpy \textbullet{} Pandas \textbullet{} TensorFlow \textbullet{} Docker \\ \textbullet{} Ansible  \textbullet{} Flask \textbullet{} Django \textbullet{} Android Studio \textbullet{} Angular \\
+
+\vspace{1mm}
+
+\location{Familiar:} 
+ \textbullet{} Elastic Search \textbullet{} NodeJS \textbullet{} NLTK
+
+\sectionsep
+
+\subsection{databases}
+MongoDB \textbullet{} MySQL \textbullet{} Hbase \textbullet{} Hive \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{CERTIFICATIONS} 
+
+\descript{HDP SPARK DEVELOPER} 
+\location{HORTONWORKS | 2017}
+\vspace{1mm}
+\descript{JAVA ASSOCIATE} 
+\location{ORACLE | 2016}
+\vspace{1mm}
+\descript{Spark Developer} 
+\location{SIMPLILEARN | 2017}
+\vspace{1mm}
+\descript{GATE} 
+\location{2018}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievments}
+
+\runsubsection{SIH 2018}
+\descript{| TEAM LEADER, 1\textsuperscript{st} RUNNER UP IN STUDENT'S VOICE}
+\location{March 2018 | Pune, IN}
+%\textbullet{Shortlisted out of 1300 teams across India and secured 2nd position out of 80 teams in Student’s Voice Category}
+
+\sectionsep
+
+\runsubsection{OpenGovData Hackathon}
+\descript{| 1\textsuperscript{st} RUNNER UP IN SOFTWARE}
+\location{March 2018 | GUJARAT, IN}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Ignite Solutions}
+\descript{| Software Development Engineer}
+\location{June 2018 – Present | Pune, IN}
+
+\sectionsep
+
+\runsubsection{Reliance JIO}
+\descript{| Data Science Intern }
+\location{May 2017 – Jul 2017 | Navi Mumbai, IN}
+\vspace{2.5mm}
+
+%%%%\begin{tightemize}
+%%%%\item A \end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECTS}
+\vspace{1mm}
+\runsubsection{WEBSITE RELIABILITY PREDICTOR}
+\descript{| IGNITE SOLUTIONS}
+\location{Python, Scikit Learn, MongoDB | Machine Learning}
+
+\vspace{2mm}
+
+\runsubsection{WEBSITE CLUSTERING}
+\descript{| IGNITE SOLUTIONS}
+\location{Python, Scikit Learn, MongoDB | Machine Learning}
+
+\vspace{2mm}
+
+\runsubsection{CUSTOMER LEVEL SATISFACTION}
+\descript{| RELIANCE JIO}
+\location{Python, Scikit Learn, Hadoop | Machine Learning}
+
+\vspace{2mm}
+
+\runsubsection{CALL LOGS AND COMPLAINS DATA ANALYSIS}
+\descript{| RELIANCE JIO}
+\location{Hadoop, Spark, Scala, Hive | Data Analytics}
+
+\vspace{2mm}
+
+\runsubsection{HOUSING PRICE PREDICTION}
+\descript{| Machine Learning}
+\location{PySpark | github.com/vivekkumar2696/house-price-prediction-pyspark}
+
+\vspace{2mm}
+
+\runsubsection{Auto tagging of clothing}
+\descript{| DEEP LEARNING}
+\location{Python, TensorFlow | github.com/vivekkumar2696/image-classification}
+
+\vspace{2mm}
+
+\runsubsection{WATCHDOGS}
+\descript{| IGNITE SOLUTIONS}
+\location{Python, Ansible, RABBITMQ, HBASE, MONGODB | }
+
+\vspace{2mm}
+
+\runsubsection{LiForce}
+\descript{| CENTRALIZED BLOOD DONATION}
+\location{Flask, Android, MongoDB, Angular | github.com/vivekkumar2696/liforce-sih}
+
+\vspace{2mm}
+
+\runsubsection{Forest Cover Type Classification}
+\descript{| MACHINE LEARNING}
+\location{Python, Scikit Learn}
+
+\vspace{2mm}
+
+\runsubsection{Burble}
+\descript{| Idea sharing, Q/A and messaging app}
+\location{PHP, Android, MySQL, FCM}
+
+\vspace{2mm}
+
+\runsubsection{DATA GENESIS}
+\descript{| RELIANCE JIO}
+\location{Python, Android, MongoDB | github.com/vivekkumar2696/data-genesis}
+
+\vspace{2mm}
+
+\runsubsection{Verve2k17}
+\descript{| LIVE VOTING APP FOR FEST (over 2k users)}
+\location{PHP, Android, MySQL | github.com/vivekkumar2696/Verve2k17}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2018	     & 2\textsuperscript{nd}  & Smart India Hackathon\\
+2018	     & 2\textsuperscript{nd}  & Gujarat OpenGovData Hackathon\\
+2017         & 2\textsuperscript{nd}  & MindF Quiz, SVNIT \\
+2017         & 2\textsuperscript{nd}  & National Conference SCIT-2017 \\
+%2017         & 1\textsuperscript{st}  & Game of Codes, Updates SCET
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}
