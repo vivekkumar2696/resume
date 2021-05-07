@@ -15,34 +15,7 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
 
 \documentclass[]{deedy-resume-openfont}
 
@@ -72,16 +45,16 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth}
+\begin{minipage}[t]{0.33\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education}
+\section{Education} 
 
-\descript{SARVAJANIK COLLEGE OF ENGINEERING AND TECHNOLOGY}
-\location{Computer Engineering | Surat, IN}
+\descript{SARVAJANIK COLLEGE \\ OF ENGINEERING AND TECHNOLOGY}
+\location{BE Computer Science | Surat, IN}
 \location{2014 - 2018 \\ CGPA: 8.87}
 \sectionsep
 
@@ -100,7 +73,7 @@
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links}
+\section{Links} 
 Github: \href{https://github.com/vivekkumar2696}{\custombold{vivekkumar2696}} \\
 LinkedIn:  \href{https://www.linkedin.com/in/kumarvivek2696}{\custombold{kumarvivek2696}} \\
 
@@ -113,39 +86,39 @@ LinkedIn:  \href{https://www.linkedin.com/in/kumarvivek2696}{\custombold{kumarvi
 \section{Skills}
 \subsection{Programming}
 \location{Over 5000 lines:}
-Python \textbullet{} Scala \textbullet{} JavaScript \textbullet{} JAVA \textbullet{} C \textbullet{} C++ \textbullet{} Android \textbullet{} HTML \textbullet{} CSS \textbullet{} PHP \\
+Python \textbullet{} Scala \textbullet{} JavaScript \textbullet{} Java  \\ \textbullet{}  PHP \textbullet{} C \textbullet{} C++ \textbullet{} Android \textbullet{} HTML \\ \textbullet{} CSS 
 \sectionsep
 
-\subsection{frameworks and tools}
+\subsection{frameworks and tools} 
 
-Spark \textbullet{} Hadoop \textbullet{}
-Flask \textbullet{} RabbitMQ \textbullet{} Django \textbullet{} \\ Docker \textbullet{} Ansible  \textbullet{} AWS \textbullet{} Angular \textbullet{} \\ Scikit \textbullet{} CakePHP
+Spark \textbullet{} AWS \textbullet{} Hadoop \textbullet{}
+Flask \textbullet{} Git \\ \textbullet{} RabbitMQ \textbullet{} Ansible \textbullet{} Docker  \\ \textbullet{} Django \textbullet{}  Angular \textbullet{} Scikit \\ \textbullet{} CakePHP
 \textbullet{} Android Studio
 \sectionsep
 
 \subsection{databases}
-MongoDB \textbullet{} MySQL \textbullet{} Hbase \textbullet{} Hive \\ \textbullet{} Snowflake
+MongoDB \textbullet{} MySQL \textbullet{} PostgresSQL \\ \textbullet{} Hbase \textbullet{} Hive \textbullet{} Snowflake 
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     CERTIFICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{CERTIFICATIONS}
+\section{CERTIFICATIONS} 
 
-\descript{HDP SPARK DEVELOPER}
-\location{HORTONWORKS | 2017}
+\descript{HDP SPARK DEVELOPER} 
+\location{Hortonworks | 2017}
 \vspace{1mm}
-\descript{Spark Developer}
-\location{SIMPLILEARN | 2017}
+\descript{Spark Developer} 
+\location{Simplilearn | 2017}
 \vspace{1mm}
-\descript{JAVA ASSOCIATE}
-\location{ORACLE | 2016}
+\descript{JAVA ASSOCIATE} 
+\location{Oracle | 2016}
 \vspace{1mm}
-\descript{AppliedAI (Pursuing)}
-\location{AI and Machine Learning | 2019}
-\vspace{1mm}
-\descript{GATE}
+% \descript{AppliedAI (Pursuing)} 
+% \location{AI and Machine Learning | 2019}
+% \vspace{1mm}
+\descript{GATE} 
 \location{2018}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -154,29 +127,12 @@ MongoDB \textbullet{} MySQL \textbullet{} Hbase \textbullet{} Hive \\ \textbulle
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage}
+\end{minipage} 
 \hfill
-\begin{minipage}[t]{0.66\textwidth}
+\begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     ACHIEVEMENTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Achievments}
-
-\runsubsection{SIH 2018}
-\descript{| TEAM LEADER, 1\textsuperscript{st} RUNNER UP IN STUDENT'S VOICE}
-\location{March 2018 | Pune, IN}
-%\textbullet{Shortlisted out of 1300 teams across India and secured 2nd position out of 80 teams in Student’s Voice Category}
-
-\sectionsep
-
-\runsubsection{OpenGovData Hackathon}
-\descript{| 1\textsuperscript{st} RUNNER UP IN SOFTWARE}
-\location{March 2018 | GUJARAT, IN}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
@@ -196,67 +152,74 @@ MongoDB \textbullet{} MySQL \textbullet{} Hbase \textbullet{} Hive \\ \textbulle
 \runsubsection{Reliance JIO}
 \descript{| Data Science Intern }
 \location{May 2017 – Jul 2017 | Navi Mumbai, IN}
-\vspace{2.5mm}
+\vspace{1mm}
 
 %%%%\begin{tightemize}
 %%%%\item A \end{tightemize}
-\sectionsep
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PROJECTS
+%     PROJECTS  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{PROJECTS}
 \vspace{1mm}
 
-\runsubsection{Data collection pipeline of site data}
-\descript{| IGNITE SOLUTIONS}
-\location{Python, Rabbitmq, Hbase, MongoDB, AWS, Ansible }
+\runsubsection{ Asset Compliance Tool | Fractal Analytics}
+\\
+ \small\textbullet{} \location{ Non-compliance detection website integrated with big data}
+ \small\textbullet{} \location{ Spark, Python, AWS, NodeJS, ReactJS }
 
 \vspace{2mm}
 
-\runsubsection{Piracy detection pipeline}
-\descript{| Fractal Analytics}
-\location{Spark, Python, Hive, S3, Oozie}
+\runsubsection{Piracy detection pipeline | Fractal Analytics} \\
+\small\textbullet{} \location{ Detect commercial misuse of licenses using usage and entitlement data}
+\small\textbullet{} \location{ PySpark, Hive, S3, Oozie }
+
+% \vspace{2mm}
+
+% \runsubsection{Adoption pipeline(Telemetary data)}
+% \descript{}
+% \location{Spark, Python, Hive | Fractal Analytics}
 
 \vspace{2mm}
 
-\runsubsection{Adoption pipeline(Telemetary data)}
-\descript{| Fractal Analytics}
-\location{Spark, Python, Hive}
+\runsubsection{Data collection pipeline of site data | Ignite Solutions} \\
+% \descript{}
+\small\textbullet{} \location{Data Ingestion tool to get site data on a large scale (3M websites/half hour)}
+\small\textbullet{} \location{ Python, Rabbitmq, Hbase, MongoDB, AWS, Ansible }
 
 \vspace{2mm}
 
-\runsubsection{WATCHDOGS}
-\descript{| IGNITE SOLUTIONS}
-\location{Python, Ansible, Rabbitmq, Hbase, MongoDB, AWS }
+\runsubsection{WATCHDOGS for multiple tools | Ignite Solutions} \\
+\small\textbullet{} \location{ Smart Monitoring system for various softwares running on multiple servers }
+\small\textbullet{} \location{Python, Ansible, AWS, Rabbitmq, Hbase, MongoDB}
 
 \vspace{2mm}
 
-\runsubsection{Ingest Django Application}
-\descript{| Data extractor from Invoices}
-\location{Python, Django, Basic ML, Angular}
+\runsubsection{Ingest Django Application | Ignite Solutions} \\
+\small\textbullet{} \location{Data extracting website from invoices}
+\small\textbullet{} \location{Python, Django, Basic ML, Angular}
 
 \vspace{2mm}
 
-\runsubsection{CUDDLY}
-\descript{| IGNITE SOLUTIONS}
-\location{CakePHP, AngularJS, Ansible, REST, Docker | Website}
+\runsubsection{CUDDLY | Ignite Solutions} \\
+\small\textbullet{} \location{Fundraising and ecommerce website for pets and shelters}
+\small\textbullet{} \location{CakePHP, AngularJS, Ansible, REST, Docker}
 
 \vspace{2mm}
 
-\runsubsection{WEBSITE CLUSTERING}
-\descript{| IGNITE SOLUTIONS}
-\location{Python, Scikit Learn, MongoDB | Machine Learning}
+\runsubsection{WEBSITE CLUSTERING  | Ignite Solutions} \\
+\small\textbullet{} \location{Clustering model for grouping different websites based on uptime, server/technical and geo data}
+\small\textbullet{} \location{Python, Scikit Learn, MongoDB}
 
 \vspace{2mm}
 
-\runsubsection{WEBSITE RELIABILITY PREDICTOR}
-\descript{| IGNITE SOLUTIONS}
-\location{Python, Scikit Learn, MongoDB | Machine Learning}
+% \runsubsection{WEBSITE RELIABILITY PREDICTOR}
+% \descript{| }
+% \location{Python, Scikit Learn, MongoDB | Ignite Solutions}
 
-\vspace{2mm}
+% \vspace{2mm}
 
 % \runsubsection{HOUSING PRICE PREDICTION}
 % \descript{| Machine Learning}
@@ -267,37 +230,58 @@ MongoDB \textbullet{} MySQL \textbullet{} Hbase \textbullet{} Hive \\ \textbulle
 % \runsubsection{Auto tagging of clothing}
 % \descript{| DEEP LEARNING}
 % \location{Python, TensorFlow | github.com/vivekkumar2696/image-classification}
-\runsubsection
-{Github Similar Repository}
-\href{https://chrome.google.com/webstore/detail/github-similar-repository/ppgdlobphnefimdieecenohghobnfndh} {\descript {| Chrome extension}}
-\location{Javascript}
+\runsubsection 
+{  {Github Similar Repository} } \\
+\small\textbullet{} \location{Extension for finding similar repositories for the one being currently viewed}
+\small\textbullet{} \location{Javascript | \href{https://chrome.google.com/webstore/detail/github-similar-repository/ppgdlobphnefimdieecenohghobnfndh} { Chrome extension}}
 
 \vspace{2mm}
 
-\runsubsection{LiForce}
-\descript{| CENTRALIZED BLOOD DONATION}
-\location{Flask, Android, MongoDB, Angular}
+% \runsubsection{LiForce}
+% \descript{| CENTRALIZED BLOOD DONATION}
+% \location{Flask, Android, MongoDB}
 
-\vspace{2mm}
+% \vspace{2mm}
 
-\runsubsection{Verve2k17}
-\descript{| LIVE VOTING APP FOR FEST (over 2k users)}
-\location{PHP, Android, MySQL}
-\sectionsep
+% \runsubsection{Verve2k17}
+% \descript{| LIVE VOTING APP FOR FEST (over 2k users)}
+% \location{PHP, Android, MySQL}
+% \sectionsep
+
+\section{Achievments}
+
+\runsubsection{SIH 2018}
+\descript{| TEAM LEADER, 1\textsuperscript{st} RUNNER UP IN STUDENT'S VOICE}
+\location{March 2018 | Pune, IN}
+%\textbullet{Shortlisted out of 1300 teams across India and secured 2nd position out of 80 teams in Student’s Voice Category}
+
+\vspace{1mm}
+
+\runsubsection{OpenGovData Hackathon}
+\descript{| 1\textsuperscript{st} RUNNER UP IN SOFTWARE}
+\location{March 2018 | Gujarat, IN}
+\vspace{1mm}
+\runsubsection{National Conference SCIT}
+\descript{| 1\textsuperscript{st} RUNNER UP}
+\location{March 2017 | Gujarat, IN}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards}
-\begin{tabular}{rll}
-2018	     & 2\textsuperscript{nd}  & Smart India Hackathon\\
-2018	     & 2\textsuperscript{nd}  & Gujarat OpenGovData Hackathon\\
-2017         & 2\textsuperscript{nd}  & MindF Quiz, SVNIT \\
-2017         & 2\textsuperscript{nd}  & National Conference SCIT-2017 \\
-%2017         & 1\textsuperscript{st}  & Game of Codes, Updates SCET
-\end{tabular}
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2018	     & 2\textsuperscript{nd}  & Smart India Hackathon\\
+% 2018	     & 2\textsuperscript{nd}  & Gujarat OpenGovData Hackathon\\
+% 2017         & 2\textsuperscript{nd}  & MindF Quiz, SVNIT \\
+% 2017         & 2\textsuperscript{nd}  & National Conference SCIT-2017 \\
+% %2017         & 1\textsuperscript{st}  & Game of Codes, Updates SCET
+% \end{tabular}
 \sectionsep
 
-\end{minipage}
+\end{minipage} 
 \end{document}
